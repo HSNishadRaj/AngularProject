@@ -1,0 +1,246 @@
+.main-contianer{
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+}
+.top-most-header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 42px;
+    align-items: center;
+    background-color: #1A1A1A;
+    color: #626262;
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0em;
+}
+
+.left-div{
+font-size: 12px;
+line-height: 18px;
+}
+
+.right-div{
+font-size: 10px;
+line-height: 15px;
+}
+
+ i.fas.fa-truck {
+    margin-left: 50px;
+}
+
+
+a { 
+    text-decoration: none; 
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.left-div i {
+    margin-left: 15px; 
+    
+}
+
+.right-div a {
+    margin-right: 15px; 
+}
+
+.social-icons i {
+    margin-right: 10px;
+}
+
+.social-icons > :last-child {
+    padding-right: 50px; 
+  }
+
+
+.rectangle-container{
+    background-color: black;
+    color: #626262;
+    height: 115vh;
+    opacity: 0.85;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #626262;
+    height: auto;
+    opacity: 0.85;
+    flex-direction: row;
+}
+
+
+.ShopKart{
+font-family: Poppins;
+font-size: 40px;
+font-weight: 250;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+top: 41px;
+padding-left: 50px;
+border: 1px
+}
+
+.wishlist{
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+color: white;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 30px;
+padding-right: 50px;
+}
+
+hr{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.orange-reactangle{
+    min-height: 55vh;
+    max-width: 67vw;
+    background-color: #F07E15;
+    margin-left: 0px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.orange-box-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 180px;
+    padding-right: 0px;
+}
+
+.menu-container{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+
+    a{
+        margin-left: 80px;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn {
+    color: white; 
+    cursor: pointer;
+}
+
+ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+ul li > a {
+    color: #333333; 
+    text-decoration: none;
+    display: block;
+
+}
+
+
+ul  li > a:hover {
+    color: white;
+}
+
+li:hover ul {
+    display: block;
+}
+
+
+
+.Fresh-title{
+    font-family: Syen;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    position: absolute;
+    padding-left: 35vh;
+    padding-top: 23vh;
+    }
+    
+    .t2022-title{
+        font-family: Syen;
+        font-size: 135px;
+        font-weight: 800;
+        line-height: 103px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: unset;
+        position: absolute;
+        padding-left: 59vh;
+        padding-top: 42vh;
+        -webkit-text-stroke: 2px white;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .look-title{
+        font-family: Syen;
+        font-size: 135px;
+        font-weight: 800;
+        line-height: 103px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        position: absolute;
+        padding-left: 39vh;
+        padding-top: 59vh;
+        }
+
+img{
+    position:absolute;    
+ }
+
+ .show-more{
+    color: wheat;
+    padding-left: 10vw;
+    position: absolute;
+    bottom: -14vh;
+ }
+
+ .price-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding-right: 40px;
+
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+ }
